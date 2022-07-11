@@ -9,13 +9,16 @@ draw_set_font(Fnt_Main);
 
 if(charCount < string_length(text[page]))
 {
-	audio_play_sound(voice[voiceSpeed], 1, false);
+	if(voiceSpeed < voiceDelay)
+		voiceSpeed++
+	else
+		{
+			voiceSpeed = irandom_range(0, 3);
+			audio_play_sound(voice[voiceSpeed], 10, false);
+		}
 	charCount += 0.4;
 	faceSpeed += 0.1;
-	voiceSpeed += 1;
-	if(voiceSpeed == 1) {voiceSpeed = 0;}
 	if(faceSpeed >= sprite_get_number(face)) {
-		voiceSpeed = 0;
 		faceSpeed = 0;
 	}
 }

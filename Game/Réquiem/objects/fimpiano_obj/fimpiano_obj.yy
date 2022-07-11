@@ -1,15 +1,12 @@
 {
   "spriteId": {
-    "name": "Spr_Pestana",
-    "path": "sprites/Spr_Pestana/Spr_Pestana.yy",
+    "name": "Sprite7",
+    "path": "sprites/Sprite7/Sprite7.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "Spr_Pestana",
-    "path": "sprites/Spr_Pestana/Spr_Pestana.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -24,18 +21,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Piano",
+    "path": "folders/Objects/Piano.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Player",
+  "name": "FimPiano_obj",
   "tags": [],
   "resourceType": "GMObject",
 }

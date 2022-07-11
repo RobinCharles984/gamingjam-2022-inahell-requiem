@@ -1,0 +1,1 @@
+sprite_index = Piano_tile_spr;

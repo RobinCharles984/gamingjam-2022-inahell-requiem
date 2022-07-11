@@ -1,6 +1,8 @@
 thisCharacter = noone;
 thisVoice[0] = Snd_Voice1;
 thisVoice[1] = Snd_Voice2;
+thisVoice[2] = Snd_Voice3;
+thisVoice[3] = Snd_Voice4;
 thisFace = Pestana_Concept_pixel_dialogo;
 
 thisName = "Maria";

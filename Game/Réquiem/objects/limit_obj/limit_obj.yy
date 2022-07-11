@@ -1,15 +1,12 @@
 {
   "spriteId": {
-    "name": "Spr_Pestana",
-    "path": "sprites/Spr_Pestana/Spr_Pestana.yy",
+    "name": "Limit_spr",
+    "path": "sprites/Limit_spr/Limit_spr.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "Spr_Pestana",
-    "path": "sprites/Spr_Pestana/Spr_Pestana.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -25,17 +22,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Tile_obj","path":"objects/Tile_obj/Tile_obj.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Piano",
+    "path": "folders/Objects/Piano.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_Player",
+  "name": "Limit_obj",
   "tags": [],
   "resourceType": "GMObject",
 }

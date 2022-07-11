@@ -1,0 +1,1 @@
+sprite_index = piano_thingtile2_spr;
